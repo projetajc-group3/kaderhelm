@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  subchart3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-22T14:08:33.063251497Z"
+    dependencies:
+    - name: subchart1
+      repository: file://../subchart1/
+      version: 0.1.0
+    - name: subchart2
+      repository: file://../subchart2/
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: aaeb86e618bd520510b96b4cbd23410c49183a36806e1f27c52722eafe1ae6e5
+    name: subchart3
+    type: application
+    urls:
+    - https://projetajc-group3.github.io/kaderhelm/subchart3-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-22T14:08:33.062540389Z"
